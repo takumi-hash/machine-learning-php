@@ -25,7 +25,7 @@ foreach($data as $key => $row){
     $labels[$key] = $row[0];
 }
 $labels = array_slice($labels , 1);
-var_dump($labels);
+//var_dump($labels);
 
 
 $mlp = new MLPClassifier(13, [2], ['1', '2', '3']);
